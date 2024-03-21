@@ -1,0 +1,366 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\astFactory.sol": {
+      "lastModificationDate": 1703159355333,
+      "contentHash": "57217fb3c072541172612bfe98c74af1",
+      "sourceName": "contracts/astFactory.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "AATTokenInterface",
+        "AST",
+        "ASTTokenFactory",
+        "Context",
+        "ERC20",
+        "IAAT",
+        "IAST",
+        "IERC20",
+        "IERC20Metadata",
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\aat.sol": {
+      "lastModificationDate": 1703673167736,
+      "contentHash": "06626caf5efc849995fa7b36ff7ef55b",
+      "sourceName": "contracts/aat.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "AAT",
+        "Context",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\factory.sol": {
+      "lastModificationDate": 1709201590840,
+      "contentHash": "3d0c9ee3095d0803875ba437dcb05f48",
+      "sourceName": "contracts/factory.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Address",
+        "Collection",
+        "CollectionContract",
+        "Context",
+        "ERC1155",
+        "ERC165",
+        "Factory",
+        "IERC1155",
+        "IERC1155MetadataURI",
+        "IERC1155Receiver",
+        "IERC165",
+        "IERC20Permit",
+        "IToken",
+        "MovieFactory",
+        "Ownable",
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\primary.sol": {
+      "lastModificationDate": 1709201618937,
+      "contentHash": "027e1877c33aa85219305205265cb8f3",
+      "sourceName": "contracts/primary.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC165",
+        "Factory",
+        "IERC1155",
+        "IERC1155Receiver",
+        "IERC165",
+        "IERC20Permit",
+        "IToken",
+        "Ownable",
+        "PrimaryMarketplace",
+        "ReentrancyGuard",
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\secondary.sol": {
+      "lastModificationDate": 1709201630855,
+      "contentHash": "e48eb32c896f625d0993af9ac2f588fb",
+      "sourceName": "contracts/secondary.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "ERC165",
+        "Factory",
+        "IERC1155",
+        "IERC1155Receiver",
+        "IERC165",
+        "IERC20Permit",
+        "IToken",
+        "Ownable",
+        "ReentrancyGuard",
+        "SafeERC20",
+        "SecondaryMarketplace"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\hardhat\\contracts\\token.sol": {
+      "lastModificationDate": 1710086726014,
+      "contentHash": "bc1e451b70af9ba3e7524ec3973bee81",
+      "sourceName": "contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "ArabianHorses",
+        "Context",
+        "IERC20",
+        "IUniswapV2Factory",
+        "IUniswapV2Router02",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\assignment\\contracts\\token.sol": {
+      "lastModificationDate": 1711020178480,
+      "contentHash": "a4aeb589ab1f4d681ec89105d2b0b8e6",
+      "sourceName": "contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "0.8.19"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "ERC20Burnable",
+        "IERC20",
+        "IERC20Metadata",
+        "Ownable",
+        "Token"
+      ]
+    },
+    "C:\\Users\\abdul\\Desktop\\assignment\\contracts\\crowdsale.sol": {
+      "lastModificationDate": 1711036026971,
+      "contentHash": "eb0a4c4d4d044b271b50f228e37826ee",
+      "sourceName": "contracts/crowdsale.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "Context",
+        "Crowdsale",
+        "IERC20",
+        "Ownable",
+        "ReentrancyGuard",
+        "SafeMath"
+      ]
+    }
+  }
+}
